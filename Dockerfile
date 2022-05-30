@@ -5,3 +5,4 @@ WORKDIR /workspace
 ADD requirements.txt /workspace/
 RUN pip3 install -r requirements.txt
 ADD . /workspace/
+ENV PYTHONPATH /workspace/mymodules

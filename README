@@ -1,0 +1,13 @@
+pythonでの統計学習用アプリケーション環境
+
+環境はdockerで用意、pythonのバージョンは3系
+導入モジュールはrequirements.txtで一括管理を実施
+
+アプリケーションはコンポーネント管理
+各フォルダの用途配下のように実施
+* apps : 実際のアプリを格納
+* mymodule : 独自のクラスを格納
+* datasets : 統計や分析に利用するデータを格納
+* Dockerfile : config file for docker component
+* README : introduction
+* requirements.txt : python librareis
